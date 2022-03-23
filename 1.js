@@ -17,19 +17,6 @@ function getVowels() {
     let vowels = ["a", "e", "i", "o", "u", "y"]
 
 
-
-    alphabet[0],
-        alphabet[4],
-        alphabet[8],
-        alphabet[alphabet.length - 12 - 1],
-        alphabet[alphabet.length - 6, -1]
-    alphabet[alphabet.length - 2, -1]
-
-
-
-
-
-
     return vowels
 }
 
