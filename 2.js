@@ -15,11 +15,10 @@ function getAlphaNumericAlphabet() {
     const alphaNumericAlphabetWithAmp = [...alphaNumericAlphabet, "&"];
 
     return alphaNumericAlphabetWithAmp 
-
+}
 
 console.log(getAlphaNumericAlphabet())
 module.exports = getAlphaNumericAlphabet
 
-/*
-You can run tests for this code to check your answers by running `npm run test-2`
-*/
+
+//You can run tests for this code to check your answers by running `npm run test-2

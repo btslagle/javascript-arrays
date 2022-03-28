@@ -14,15 +14,19 @@ Note:
 
 function getVowels() {
     const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-
-    let vowels = ["a", "e", "i", "o", "u", "y"]
-
-
-    return vowels
+    let vowels =[]
+    for(let letter of alphabet)
+        if (letter === "a" || letter === "e" ||letter ==="i" || letter === "o" || letter === "u" ||letter === "y"){
+    vowels.push(letter)
+    
 }
-
+    return vowels   
+}
+console.log(getVowels())
 module.exports = getVowels
 
-/*
-You can run tests for this code to check your answers by running `npm run test-1`
-*/
+
+
+
+
+//You can run tests for this code to check your answers by running `npm run test-1`//
